@@ -3,8 +3,7 @@
 import sys
 import operator
 
-operations = {'suma': operator.add, 'resta': operator.sub,
-            'multiplicar': operator.mul, 'dividir': operator.truediv}
+operations = {'suma': operator.add, 'resta': operator.sub, 'multiplicar': operator.mul, 'dividir': operator.truediv}
 
 if len(sys.argv) != 4:
     print('Usage error: <operation> <num1> <num2>')
